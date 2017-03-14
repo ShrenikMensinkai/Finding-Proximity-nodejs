@@ -1,0 +1,19 @@
+{
+  "name": "proximitysearch",
+  "version": "0.0.1",
+  "description": "",
+  "main": "program.js",
+  "scripts": {
+    "test": "node program <inputfile> <N-value>"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShrenikMensinkai/Finding-Proximity-nodejs.git"
+  },
+  "author": "shrenik",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ShrenikMensinkai/Finding-Proximity-nodejs/issues"
+  },
+  "homepage": "https://github.com/ShrenikMensinkai/Finding-Proximity-nodejs#readme"
+}
