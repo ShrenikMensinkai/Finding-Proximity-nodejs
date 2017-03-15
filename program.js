@@ -25,13 +25,13 @@
                 //Trims the array element
                 for(var paramIndex=0;paramIndex<param.length;paramIndex++){
                     if(paramIndex==0){
-                        arrItems[paramIndex]= (param[paramIndex].substring(2,param[paramIndex].length-1));
+                        arrItems[paramIndex]= (param[paramIndex].substring(2,param[paramIndex].length-1)).toLowerCase();
                     }
                     else if(paramIndex==param.length-1){
-                        arrItems[paramIndex]= (param[paramIndex].substring(1,param[paramIndex].length-2));
+                        arrItems[paramIndex]= (param[paramIndex].substring(1,param[paramIndex].length-2)).toLowerCase();
                     }
                     else{
-                        arrItems[paramIndex]= (param[paramIndex].substring(1,param[paramIndex].length-1));
+                        arrItems[paramIndex]= (param[paramIndex].substring(1,param[paramIndex].length-1)).toLowerCase();
                     }
                 }
                 var arrLen = arrItems.length;
